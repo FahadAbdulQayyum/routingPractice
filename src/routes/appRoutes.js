@@ -13,3 +13,7 @@ const AppRoutes = () =>
     </Routes>
 
 export default AppRoutes;
+
+// When I use this routing system, then I face the issue when I run this website on Netlify Server
+// Because, over pressing a button which redirects me to another route, appears like that page does not exist
+// Though it is.
